@@ -1,0 +1,139 @@
+{
+  "SearchFIP": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_MPIN": "111111",
+    "I_BROWSER": "chrome",
+    "I_asset_class_id": "BANK",
+    "I_SEARCHKEY": "",
+    "I_SEARCHPAGENATION": "All",
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "696fcefe-9b4a-4e18-883d-5236f951f124",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "TriggerOtp": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_CLIENTIP": "116.50.59.201",
+    "I_BROWSER": "chrome",
+    "I_MPIN": "123456",
+    "I_USERID": "8925606987",
+    "UUID": "1782607b-b48e-4ed6-b772-d89145a58bd0",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "VerifyOtp_V1": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_MOBOTP": "595810",
+    "I_BROWSER": "chrome",
+    "I_CLIENTIP": "116.50.59.201",
+    "I_Flag": "M",
+    "I_USERID": "8925606987",
+    "UUID": "1e7ca063-d837-45bb-a400-735005e66627",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "getConsentHandleDetails": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_BROWSER": "chrome",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4",
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "5088b87a-8e22-4cf7-a575-8fbaff367799"
+  },
+  "discover": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_BROWSER": "chrome",
+    "I_Identifier": [
+      { "I_Flag": "MOBILE", "DATA": "8925606987", "type": "STRONG" }
+    ],
+    "I_FITYPE": "DEPOSIT",
+    "I_FIPID": "fipuat@citybank",
+    "I_FIPNAME": "City Union Bank",
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "0081a397-0790-4edb-a62c-af95cd848821",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "linkDsc": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_BROWSER": "chrome",
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "a4be9043-6ecf-4f35-8fe4-48320b69deb1",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "link": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_BROWSER": "chrome",
+    "I_FIPID": "fipuat@citybank",
+    "ACCOUNTS_TO_LINK": [
+      {
+        "FIPACCNUM": "XXXXXXXXXXXX8277",
+        "FIPACCREFNUM": "661f7ec3-6872-488e-a484-3b1e12f91fba",
+        "FIPACCTYPE": "SAVINGS",
+        "FIPTYPE": "DEPOSIT",
+        "FIPID": "fipuat@citybank",
+        "Logo": ""
+      }
+    ],
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "66799933-34cf-419a-9e5e-5116f5d798ea",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "authenticateToken": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_BROWSER": "chrome",
+    "I_FIPID": "fipuat@citybank",
+    "I_FIPACCREFNUM": "be5b885f-6b43-4c74-b357-1d2fe865fa2f",
+    "I_MOBOTP": "123456",
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "6128dc2e-eb43-4825-b60a-f340bac4d314",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "getMobileNumber": {
+    "I_MOBILENUMBER": "8925606987",
+    "I_BROWSER": "chrome",
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "ce8dc282-9a32-48a8-becb-9495f1d1faa1",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4"
+  },
+  "consentArtefact_V1": {
+    "I_MOBILENUMBER": "9952679801",
+    "I_MPIN": "111111",
+    "I_BROWSER": "chrome",
+    "I_ConsentHandle": "6ab202dd-5954-45f4-832b-df0be952a7a4",
+    "FIPDetailsList": [
+      {
+        "CUSTID": "9952679801",
+        "FIPID": "fipuat@citybank",
+        "FIPACCREFNUM": "2f1f881f-5210-43db-919f-e6f1d9d4abc2",
+        "LINKINGREFNUM": "c3ed3ff8-2f7b-4363-bea5-c19a4b80e9d0",
+        "LINKEDDATE": "3/15/2023 4:35:12 AM",
+        "FIPACCTYPE": "SAVINGS",
+        "FIPACCNUM": "XXXXXXXXXXXX8279",
+        "FITYPE": "DEPOSIT",
+        "CONSENTCOUNT": 1,
+        "CONSENTDATE": "2023-04-14T03:35:35.404Z",
+        "LOGO": "",
+        "FIPNAME": "City Union Bank",
+        "FIPACCLINKREF": "c3ed3ff8-2f7b-4363-bea5-c19a4b80e9d0",
+        "isCardSelected": true
+      }
+    ],
+    "I_SESSION": "8d2a4d32-98f5-4416-b826-b6661b5eecee",
+    "I_USERID": "8925606987",
+    "UUID": "fa52d305-0d5c-422a-bef3-78df8b3a2aab"
+  },
+  "addNewMobile": {
+    "I_BROWSER": "chrome",
+    "I_MOBILENUMBER": "9941884165",
+    "I_SECONDARY_MOBILE_NUMBER": "8925606987",
+    "I_MOBOTP": "134865",
+    "I_Flag": "M",
+    "I_SESSION": "c1ac9194-c5d7-41a6-84f6-82ed97d8b629",
+    "I_USERID": "9941884165",
+    "UUID": "ba998e21-902b-4a27-8d5a-dbd833b1ce33",
+    "I_ConsentHandle": "123324fb-1253-4ec5-87a9-3a70166d21cc"
+  }
+}

@@ -1,0 +1,57 @@
+import React, { useEffect } from 'react'
+import images from '../assets/images'
+import { useNavigate } from 'react-router'
+import {
+    UUID as UUIDAtom,
+    FIPDetailsList as FIPDetailsListAtom,
+    redirectUrl as redirectUrlAtom,
+    XORDecryptRes as XORDecryptResAtom,
+    FiDetails as FiDetailsAtom
+} from '../services/recoil-states/atom'
+import { useRecoilState } from 'recoil'
+import Heading from '../component/heading/Heading'
+import { useSelector } from 'react-redux'
+import { RootStateType } from '../store/reducers'
+import { BankState } from '../store/types/bankListType'
+
+export default function SomethingWrong(): JSX.Element {
+    const navigate = useNavigate()
+    const checkValue: boolean = false;
+    const [UUID] = useRecoilState(UUIDAtom)
+    const { discoverBankResponse, consentData } = useSelector<RootStateType, BankState>((state) => state.bank);
+    const [XORDecryptRes] = useRecoilState<any>(XORDecryptResAtom)
+    const [FIPDetailsList] = useRecoilState(FIPDetailsListAtom)
+    const [redirectUrl] = useRecoilState(redirectUrlAtom)
+    const [FiDetails] = useRecoilState<any>(FiDetailsAtom)
+
+    // To generate Error Code based on MESSAGE
+    const getErrorCode = (message: string) => {
+        if (/Consent is rejected/i.test(message)) {
+            return 2
+        } else if (/Consent not available/i.test(message)) {
+            return 2
+        } else {
+            return 2
+        }
+    }
+
+    return (
+        <>
+            <Heading
+                checked={checkValue}
+                Backbtn={false}
+                closebtn={true}
+            />
+            <div className="some-wrong">
+                <img src={images.SomethingWrong} alt="" />
+                <div className="something-title">
+                    <h5>Oh no! Something went wrong!</h5>
+                    <p>Please check your network and try again.</p>
+                </div>
+            </div>
+            <div className="retry-button">
+               <button>Retry</button>
+            </div>
+        </>
+    )
+}
